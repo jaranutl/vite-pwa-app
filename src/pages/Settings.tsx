@@ -1,5 +1,9 @@
 import React from "react";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import Groups2OutlinedIcon from "@mui/icons-material/Groups2Outlined";
+import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
+import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
 
 export const Settings = () => {
   return (
@@ -10,16 +14,29 @@ export const Settings = () => {
           <a>
             <AccountCircleOutlinedIcon />
             My Account
+            <ArrowForwardIosOutlinedIcon />
           </a>
         </li>
         <li>
-          <a>About Us</a>
+          <a>
+            <Groups2OutlinedIcon />
+            About Us
+            <ArrowForwardIosOutlinedIcon />
+          </a>
         </li>
         <li>
-          <a>About this App</a>
+          <a>
+            <InfoOutlinedIcon />
+            About this App
+            <ArrowForwardIosOutlinedIcon />
+          </a>
         </li>
         <li>
-          <a>Logout</a>
+          <a>
+            <LogoutOutlinedIcon />
+            Logout
+            <ArrowForwardIosOutlinedIcon />
+          </a>
         </li>
       </ul>
     </div>
